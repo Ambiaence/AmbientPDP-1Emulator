@@ -1,0 +1,108 @@
+! I think this is relavant
+? This is intereasting
+
+First number is PDF Page #
+Second number is Physical Page #
+
+4 - 4
+What does it mean by single address? !
+
+What is a mega cycle? !
+
+Uses DECS System Modules !
+
+What is a  ?
+	saturating trasistor?
+	Micro Alloy diffused transitors
+	Micro Allow transitors
+
+What is a memory buffer register? !
+	Is it just a register?
+
+It has 18 bit words
+
+It uses a memory cycle that takes 5 microseconds
+
+Two Cycle Instructions
+	Add
+	Subtract
+	Deposit
+	load
+
+Has multi step indirect addressing
+	I think like mips
+
+It has single address instructions
+	Does this apply to all instructions?
+		Probably yea why mention it?
+	
+
+What are flip flop indicators for octal reading?
+
+Six program flags?
+	Whatever that means
+
+What are six sense switches?
+
+Works well with peripherals
+
+What is an optional Sequence Break System for peripherals?
+	is it for interupts?
+
+By default it has 1 Sequence break system.
+
+5 6
+
+Central Processors has
+	Control Element
+		Handles Memory Timing
+		Instruction Performance
+		Input Output Commands
+	Arithmetic Element
+		Accumulator
+		In-Out Register 
+			What is this?
+	
+	Memory Buffer Register
+
+	Memory Addressing Element
+		PC
+		Memory Address Register (How does this differ from the PC?)
+		Does bookkeeping
+
+Why does the system block diagram have arrows in unititive places?
+
+What is the Compiler-Assembler system?
+	Is it software or hardware?
+
+	How does it relate to interpreative programming?
+
+Bits 0-4 handle instruction codes
+
+Two types of insructions
+    Augmented
+        0-4: instruction code
+        5-17: Additional Information.
+
+    Memory
+        0-4: instruction code
+        5: Indirect Addressing 
+        6-17: Address 12 total for 2**12 adresses
+
+If it's indirect AKA 5 is 'ONE' 
+    Goto the location of 6-17
+    And then jump to it's operand
+
+    Meaning goto the "Location of a Location"
+
+Memory cycle is 5 microseconds
+    Each n cycle address is a factor of this initial time.
+    
+What is an in-out transfer instruction?
+
+In-Out Transfer instructions take 5microseconds if they don't have optimal wait time.
+    What is optimal wait time?
+
+    Wait time is at least sometimes given by the device.
+
+    so it's 5microseconds or longer.
